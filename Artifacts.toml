@@ -1,0 +1,18 @@
+[[PIOLib]]
+arch = "aarch64"
+git-tree-sha1 = "b17ccf60bc49b82d8bff7b5cd651b3a41cd921cd"
+libc = "glibc"
+os = "linux"
+
+    [[PIOLib.download]]
+    sha256 = "bea5374fa3c741a8253258b969633dea775b6d67c4306f1f3283b0ab0d332f1e"
+    url = "https://github.com/JuliaBinaryWrappers/PIOLib_jll.jl/releases/download/PIOLib-v0.1.0+0/PIOLib.v0.1.0.aarch64-linux-gnu.tar.gz"
+[[PIOLib]]
+arch = "aarch64"
+git-tree-sha1 = "54c4f9b6ba541afc8b80ffe4768f301d8f608bfe"
+libc = "musl"
+os = "linux"
+
+    [[PIOLib.download]]
+    sha256 = "ebba8cc6f6d0204e40123f60f0a6c249ad950024f0269c54055e54c3a996d8e8"
+    url = "https://github.com/JuliaBinaryWrappers/PIOLib_jll.jl/releases/download/PIOLib-v0.1.0+0/PIOLib.v0.1.0.aarch64-linux-musl.tar.gz"
